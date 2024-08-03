@@ -23,5 +23,6 @@ public class LinearSearch {
         else {
             System.out.println("Integer is not present in array");
         }
+
     }
 }
