@@ -1,5 +1,7 @@
 package Practise;
 
+import java.util.Scanner;
+
 /* Pyramid Pattern 2 code
 
             1
@@ -14,4 +16,28 @@ package Practise;
 
 */
 public class PyramidPattern2 {
+
+    public static void pyramid(int num){
+
+        for(int i=1; i<=num; i++){
+            //space
+            for(int j=i; j<=num; j++){
+                System.out.print(" ");
+            }
+
+            for(int k=1; k<=i; k++){
+                System.out.print(k+" ");
+            }
+            System.out.println();
+        }
+
+    }
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter pyramid height : ");
+        int num = sc.nextInt();
+        sc.close();
+        pyramid(num);
+    }
 }
