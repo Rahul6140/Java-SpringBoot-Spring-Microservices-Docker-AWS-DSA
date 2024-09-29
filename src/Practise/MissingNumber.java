@@ -22,4 +22,11 @@ public class MissingNumber {
         System.out.println("Missing number is : "+missingNumber);
     }
 
+    /*
+    This program defines a method findMissingNumber that takes an array of distinct numbers as input.
+    It calculates the expected sum of numbers from 0 to n using the formula n * (n + 1) / 2, where n is the length of the array.
+    Then, it calculates the actual sum of numbers in the array. Finally,
+    it returns the difference between the expected sum and the actual sum, which represents the missing number.
+     */
+
 }
